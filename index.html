@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">MyPortfolio</div>
+    <nav id="nav">
+      <ul class="nav-links">
+        <li><a href="#hero" class="active">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="indicator"></div>
+      </ul>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    </nav>
+  </header>
+
+ <!-- Hero Section -->
+<section id="hero" class="hero">
+    <div class="hero-text">
+      <h1>Hello, I'm Lokesh</h1>
+      <p>I am a <span class="typing"></span></p>
+    </div>
+    <div class="hero-image">
+      <img src="./images/image.jpg" alt="Profile Image">
+    </div>
+  </section>
+  
+  <!-- About Me Section -->
+  <section id="about" class="about section">
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>I am a dedicated and enthusiastic developer with a background in Computer Science. I have worked on several web and machine learning projects that reflect my skills in building scalable, modern applications. I am currently expanding my knowledge in the field of data science and artificial intelligence, and I enjoy translating data into meaningful insights. My professional experience includes internships and collaborative projects where I’ve honed my frontend and backend skills. I'm passionate about solving complex problems and creating user-friendly, impactful digital solutions. My superpowers include quick learning, clean coding practices, and turning ideas into fully functional apps.</p>
+    </div>
+    <div class="about-image">
+      <img src="./images/image1.jpg" alt="Profile Image">
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills section">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <i class="fas fa-laptop-code"></i>
+        <h3>Web Development</h3>
+        <p>Experienced in HTML, CSS, JavaScript, and modern frameworks.</p>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-brain"></i>
+        <h3>Machine Learning</h3>
+        <p>Proficient in Python, TensorFlow, and Scikit-Learn.</p>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-python"></i>
+        <h3>Python</h3>
+        <p>Fluent in Python for scripting and data science projects.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Protofolio</h3>
+        <p>It is done using Simple HTML,CSS and JS </p>
+      </div>
+      <div class="project-card">
+        <h3>Project 2</h3>
+        <p>Description of a second project with another cool feature.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project Three</h3>
+        <p>Another project example showing your work and skills.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-info">
+      <p><i class="fas fa-phone"></i> <strong>Phone:</strong> +1 (123) 456-7890</p>
+      <p><i class="fas fa-envelope"></i> <strong>Email:</strong> <a href="mailto:yourname@email.com">yourname@email.com</a></p>
+      <p><i class="fab fa-linkedin"></i> <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/your-profile" target="_blank">linkedin.com/in/your-profile</a></p>
+      <p><i class="fab fa-github"></i> <strong>GitHub:</strong> <a href="https://github.com/your-username" target="_blank">github.com/your-username</a></p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
